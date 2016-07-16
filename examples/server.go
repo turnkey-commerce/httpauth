@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"html/template"
 	"net/http"
-	"strings"
 	"os"
+	"strings"
 
-	"github.com/apexskier/httpauth"
 	"github.com/gorilla/mux"
+	"github.com/turnkey-commerce/httpauth"
 )
 
 var (
